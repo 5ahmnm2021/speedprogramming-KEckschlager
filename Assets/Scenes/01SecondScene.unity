@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5be5e9e866774e41b7bf198b6de9be0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: 0
+  SceneToLoad: 2
 --- !u!1 &874189688
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,10 +572,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1342718460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bca26abd22c2d4d45a8971ebb3fcdc26, type: 3}
+  m_Script: {fileID: 11500000, guid: e5be5e9e866774e41b7bf198b6de9be0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: 0
+  SceneToLoad: 2
 --- !u!114 &1342718463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,7 +620,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1342718462}
-        m_TargetAssemblyTypeName: NextScene, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
         m_MethodName: SwitchScene
         m_Mode: 1
         m_Arguments:
@@ -896,10 +896,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1730832899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bca26abd22c2d4d45a8971ebb3fcdc26, type: 3}
+  m_Script: {fileID: 11500000, guid: e5be5e9e866774e41b7bf198b6de9be0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: 0
+  SceneToLoad: 2
 --- !u!114 &1730832902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -944,7 +944,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1730832901}
-        m_TargetAssemblyTypeName: NextScene, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
         m_MethodName: SwitchScene
         m_Mode: 1
         m_Arguments:
@@ -1121,10 +1121,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2031292468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bca26abd22c2d4d45a8971ebb3fcdc26, type: 3}
+  m_Script: {fileID: 11500000, guid: e5be5e9e866774e41b7bf198b6de9be0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: 0
+  SceneToLoad: 2
 --- !u!114 &2031292471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1169,7 +1169,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2031292470}
-        m_TargetAssemblyTypeName: NextScene, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
         m_MethodName: SwitchScene
         m_Mode: 1
         m_Arguments:

@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 725344712}
   - component: {fileID: 725344711}
   - component: {fileID: 725344714}
+  - component: {fileID: 725344715}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -282,6 +283,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: 1
+--- !u!114 &725344715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725344710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff5be4777f66ee4eb676eb64737a1fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &874189688
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,9 +585,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1342718460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bca26abd22c2d4d45a8971ebb3fcdc26, type: 3}
+  m_Script: {fileID: 11500000, guid: e5be5e9e866774e41b7bf198b6de9be0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: 1
 --- !u!114 &1342718463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,7 +633,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1342718462}
-        m_TargetAssemblyTypeName: NextScene, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
         m_MethodName: SwitchScene
         m_Mode: 1
         m_Arguments:
@@ -895,9 +909,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1730832899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bca26abd22c2d4d45a8971ebb3fcdc26, type: 3}
+  m_Script: {fileID: 11500000, guid: e5be5e9e866774e41b7bf198b6de9be0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: 1
 --- !u!114 &1730832902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,7 +957,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1730832901}
-        m_TargetAssemblyTypeName: NextScene, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
         m_MethodName: SwitchScene
         m_Mode: 1
         m_Arguments:
@@ -1119,9 +1134,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2031292468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bca26abd22c2d4d45a8971ebb3fcdc26, type: 3}
+  m_Script: {fileID: 11500000, guid: e5be5e9e866774e41b7bf198b6de9be0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: 1
 --- !u!114 &2031292471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1166,7 +1182,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2031292470}
-        m_TargetAssemblyTypeName: NextScene, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
         m_MethodName: SwitchScene
         m_Mode: 1
         m_Arguments:
